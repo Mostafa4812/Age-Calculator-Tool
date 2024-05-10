@@ -1,0 +1,74 @@
+*{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+    
+}
+h1{
+
+  text-align: center;
+  margin-bottom: 100px;
+}
+body{
+    background-color: aquamarine;
+}
+.container {
+    display: grid;
+    justify-content: center; 
+    align-content: center; 
+    height: 100vh; /*?? vh*/
+}
+.container *{
+    border: none;
+    outline: none;
+}
+.input-part{
+    background-color: white;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(106, 106, 206);
+    margin-bottom: 10vh;
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+    gap: 7px;
+
+}
+input{
+    background-color: rgb(216, 214, 214);
+    padding: 20px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+button{
+   
+    background-color: turquoise;   
+    border-radius: 5px;
+    padding: 10px 5px; 
+    
+}
+.output-part{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.output-part div{
+    width: 10vw;
+    height: 20vh;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(106, 106, 206);
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+span{
+    font-size: 30px;
+}
+p{
+    color: gray;
+}
