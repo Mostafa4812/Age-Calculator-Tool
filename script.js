@@ -74,7 +74,7 @@ const calculateAge = (
 };
 
 const getDaysInMonth = (month, year) => {
-    const isLeapYear = year % 4 === 0 && (year % 100 != 0 || year % 400 === 0);
+    const isLeapYear = ((yaer % 4 == 0 && yaer % 100 != 0) || (yaer % 400 == 0));
     const getDaysInMonth = [31, isLeapYear ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
     return getDaysInMonth[month - 1];
 };
